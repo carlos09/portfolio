@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myApp">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grayscale - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,300,600' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="http://code.angularjs.org/1.2.25/angular.min.js"></script>
+    <script type="text/javascript" src="js/app2.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  ng-app="websiteApp">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Grayscale</h1>
+                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2>Who I am</h2>
+                    <p>My name is Carlos Esquer, and I am a web designer & developer based out of San Diego, Ca. After graduating from the Art Institute of California-San Diego in 2010 with a Bachelor of Sciene degree in Web Design & Interactive Media, I began working at an awesome tech company named Underground Elephant.</p>
+                </div>
+                <div class="col-lg-5 about-trigger">
+                    <div class="row">
+                        <div class="col-lg-offset-2 col-lg-4 outline-button custom-btn">Who I am</div>
+                        <div class="col-lg-4 custom-btn">What I do</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Process Section -->
+    <section id="dev-process" class="content-section">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2 class="text-center">My Development Process</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <span class="fa-stack fa-4x process">
+                        <i class="fa fa-cogs fa-stack-1x"></i>
+                    </span>
+                    <h4>Strategy</h4>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <span class="fa-stack fa-4x process">
+                        <i class="fa fa-th fa-stack-1x"></i>
+                    </span>
+                    <h4>Identity</h4>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <span class="fa-stack fa-4x process">
+                        <i class="fa fa-pencil fa-stack-1x"></i>
+                    </span>
+                    <h4>Design</h4>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <span class="fa-stack fa-4x process">
+                        <i class="fa fa-laptop fa-stack-1x"></i>
+                    </span>
+                    <h4>Production</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skillset Section -->
+    <section id="skillset" class="content-section">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2 class="text-center">Skillset</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <p class="skill">Skill 1</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                    <p class="skill">Skill 1</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                    <p class="skill">Skill 1</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                    <p class="skill">Skill 1</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+
+                        <a class="custom-btn" href="#">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section id="contact-cta" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-1 col-lg-8">
+                    <h2>Question? Get in touch with me now!</h2>
+                </div>
+                <div class="col-lg-2">
+                    <a class="custom-cta">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2 class="text-center">Projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <p class="skill">Skill 1</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map" class="hidden"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="col-lg-12">
+                <h2 class="text-center">Contact</h2>
+            </div>
+            <div class="row">
+                    <div class="col-lg-5">
+                        <div id="instafeed"></div>
+                    </div> 
+                    <div class="col-lg-7">
+
+                        <form ng-submit="submitForm()" ng-controller="FormController" novalidate role="form">
+                        <div class="form-group col-lg-12">
+                          <label for="name">Name</label>
+                          <input type="text" name="name" placeholder="Name" ng-model="formData.name" ng-class="{'error' : errorName}">
+                        </div>
+                        <div class="form-group col-lg-12">
+                          <label for="email">E-mail</label>
+                          <input type="email" name="email" ng-model="formData.email" ng-class="{'error' : errorEmail}">
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea name="message" ng-class="{'error' : errorTextarea}" ng-model="formData.message" cols="30" rows="10"></textarea>
+                        </div>
+                          <input type="submit" value="Send!" name="submit">
+                          <div ng-class="{'submissionMessage' : submission}" ng-bind="submissionMessage"></div>
+                        </form>
+
+                    </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <script src="js/instafeed.min.js"></script>
+
+    <script type="text/javascript">
+        $( document ).ready(function() {
+    var feed = new Instafeed({
+        limit: 9,
+        get: 'user',
+        userId: 32615988,
+        accessToken: '32615988.467ede5.6e158eeb471246c39c0b61965a5e67f7',
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
+    });
+                        feed.run();
+    });
+    </script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
